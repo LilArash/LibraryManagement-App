@@ -1,0 +1,12 @@
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\LibraryManagement.DataLayar.dll.config
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\LibraryManagement.DataLayar.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\LibraryManagement.DataLayar.pdb
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\EntityFramework.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\EntityFramework.SqlServer.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\EntityFramework.xml
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\bin\Debug\EntityFramework.SqlServer.xml
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\obj\Debug\LibraryManagement.DataLayar.csproj.AssemblyReference.cache
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\obj\Debug\LibraryManagement.DataLayar.csproj.CoreCompileInputs.cache
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\obj\Debug\LibraryM.BDE7D7E1.Up2Date
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\obj\Debug\LibraryManagement.DataLayar.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.DataLayar\obj\Debug\LibraryManagement.DataLayar.pdb

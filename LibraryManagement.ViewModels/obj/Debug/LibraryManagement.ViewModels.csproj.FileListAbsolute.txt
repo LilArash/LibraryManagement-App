@@ -1,0 +1,6 @@
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\bin\Debug\LibraryManagement.ViewModels.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\bin\Debug\LibraryManagement.ViewModels.pdb
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\obj\Debug\LibraryManagement.ViewModels.csproj.AssemblyReference.cache
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\obj\Debug\LibraryManagement.ViewModels.csproj.CoreCompileInputs.cache
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\obj\Debug\LibraryManagement.ViewModels.dll
+J:\Programming\C#\Project\LibraryManagement\LibraryManagement.ViewModels\obj\Debug\LibraryManagement.ViewModels.pdb

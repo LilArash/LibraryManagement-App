@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="LibraryManagement_DBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tb_Books">
+    <Key>
+      <PropertyRef Name="bookID" />
+    </Key>
+    <Property Name="bookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="bookWriter" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="bookSubject" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="bookPublishDate" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="tb_BooksStatus">
+    <Key>
+      <PropertyRef Name="statusID" />
+    </Key>
+    <Property Name="statusID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="bookName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="memberName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="memberLastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="borrowDate" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="returnDate" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Login">
+    <Key>
+      <PropertyRef Name="loginID" />
+    </Key>
+    <Property Name="loginID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="username" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_Members">
+    <Key>
+      <PropertyRef Name="memberID" />
+    </Key>
+    <Property Name="memberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="memberName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="memberLastName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="memberPhone" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="membershipDate" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="LibraryManagement_DBModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Books" EntityType="Self.tb_Books" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_BooksStatus" EntityType="Self.tb_BooksStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Login" EntityType="Self.tb_Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tb_Members" EntityType="Self.tb_Members" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
